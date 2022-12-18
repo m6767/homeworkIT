@@ -1,0 +1,28 @@
+git init
+git config --global user.email "macha1900@mail.ru"
+git config --global user.name "Maria"
+git add .
+git status
+git commit -m "commit 1"
+git branch vetka
+git checkout vetka
+git add .
+git status
+git commit -m "commit 2"
+git branch vetocka
+git checkout vetocka
+git add .
+git status
+git commit -m "commit 3"
+git checkout main
+git branch -M main
+git remote add origin https://github.com/m6767/homeworkIT.git
+git push -u origin main
+git branch -M vetka
+git push -u origin vetka
+git checkout vetocka
+git add .
+git commit -m "commit 4"
+git branch -M vetka
+git branch -M vetocka
+git push -u origin vetocka
